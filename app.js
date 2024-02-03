@@ -69,7 +69,7 @@ asignarTextoElemento ("p","ya se asignaron todos los numeros posibles");
 }
 function condicionesIniciales(){
  asignarTextoElemento("H1","Juego del numero secreto");
- asignarTextoElemento("p",`ingrese un numero del 1 al 10]${numeroMaximo}`);
+ asignarTextoElemento("p",`ingrese un numero del 1 al ${numeroMaximo}`);
  numeroSecreto = generarNumeroSecreto();
  numeroDeIntentos = 1;
 }
